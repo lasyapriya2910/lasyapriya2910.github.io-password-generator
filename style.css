@@ -23,7 +23,7 @@ main {
 
 .pwdgenerator {
 	width: 100%;
-	max-width: 800px;
+	max-width: 700px;
 	padding: 2rem 1rem;
 	background-color: rgb(220, 205, 205);
     opacity: 0.8;
@@ -105,7 +105,8 @@ label span {
 label input[type="number"] {
 	text-align: right;
     color: rgb(22, 22, 22);
-    size: 20px;
+    size: 30px;
+	margin-right: 100%;
 }
 
 button[type="submit"] {
