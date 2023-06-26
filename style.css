@@ -23,7 +23,7 @@ main {
 
 .pwdgenerator {
 	width: 100%;
-	max-width: 640px;
+	max-width: 800px;
 	padding: 2rem 1rem;
 	background-color: rgb(220, 205, 205);
     opacity: 0.8;
@@ -72,7 +72,7 @@ input[type="checkbox"] {
 	flex: 1 1 0%;
 	padding: 0.5rem;
 	color: #121214;
-    font-size: medium;
+    font-size: larger;
     
 }
 
@@ -99,6 +99,7 @@ label span {
 	display: block;
 	flex: 1 1 0%;
 	white-space: nowrap;
+	font-size: larger;
 }
 
 label input[type="number"] {
@@ -120,13 +121,14 @@ button[type="submit"] {
 	transition: 0.3s ease-out;
     justify-content: center;
     text-align: center;
-    margin-left: 230px;
+    margin-left: 200px;
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
 button[type="submit"]:hover {
-	background-position: 75%;
+	background-position: 85%;
+	transform: scale(1.1);
 }
  
 
