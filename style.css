@@ -28,6 +28,7 @@ main {
 	background-color: rgb(220, 205, 205);
     opacity: 0.8;
 	border-radius: 1rem;
+	min-width: 360px;
 }
 
 h1 {
